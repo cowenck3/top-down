@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://m3v7h1e7i3pd"]
+
+[ext_resource type="Texture2D" uid="uid://b360eyc70f2mr" path="res://assets/[PLUS] Mini Dungeon Tileset/PLUS/4. Mini Dungeon Tileset/MiniDungeon3_Background_1_C.png" id="1_81dnn"]
+[ext_resource type="PackedScene" uid="uid://cu74j0mvitvw1" path="res://player/player.tscn" id="2_i0pqc"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(397, 254)
+scale = Vector2(7.22321, 7.4375)
+texture = ExtResource("1_81dnn")
+
+[node name="Player" parent="." instance=ExtResource("2_i0pqc")]
+position = Vector2(302, 150)
